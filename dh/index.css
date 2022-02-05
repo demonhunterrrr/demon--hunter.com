@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200&display=swap');
+
+body {
+  background: linear-gradient(#ad0087, #6f3ea6) no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Lexend Deca', sans-serif;
+  color: #ffffff;
+  height: 1400px;
+}
+
+a {
+  color: #44dddd;
+}
+
+#logo {
+  position: absolute;
+  top: 0px;
+  left: 225px;
+}
+
+#main {
+  position: absolute;
+  width: 800px;
+  height: 200px;
+  top: 40%;
+  left: 50%;
+  margin-left: -400px;
+  margin-top: -200px;
+}
+
+#welcome {
+  position: absolute;
+  left: 225px;
+  font-size: 48px;
+  top: -100px;
+}
+
+#link_div {
+  position: absolute;
+  width: 150px;
+  top: 50%;
+  left: 48.5%;
+  margin-left: -75px;
+}
+
+.bio {
+  position: relative;
+  top: 125px;
+  font-size: 18px;
+}
+
+#loud_text_box {
+  position: absolute;
+  top: 1200px;
+  left: 595px;
+}
+
+#loud_input_field {
+  position: absolute;
+  top: -400px;
+  left: -185px;
+  width: 600px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #00ffff;
+  font-size: 18px;
+  resize: none;
+  outline: none;
+  font-family: monospace;
+}
+
+#loud_label {
+  position: absolute;
+  top: 715px;
+  font-size: 32px;
+  width: 400px;
+  left: 635px;
+}
+
+#loudtype_bookmark {
+  position: absolute;
+  top: 1240px;
+  left: 500px;
+  background-color: #fd4087;
+  color: #fd4087;
+  font-size: 0px;
+  width: 400px;
+  height: 50px;
+  border-style: solid;
+  border-color: #fd82a7;
+  border-width: 5px;
+  border-radius: 100px;
+  filter: drop-shadow(0 0 0.75rem crimson);
+}
+
+#loud_drag_reminder {
+  position: absolute;
+  top: 1240px;
+  left: 520px;
+  color: #dddddd;
+  font-size: 18px;
+  pointer-events: none;
+}
+
+#loudtype_desc {
+  position: absolute;
+  top: 800px;
+  width: 400px;
+  font-size: 22px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

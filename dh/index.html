@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta http-equiv=”Pragma” content=”no-cache”>
+    <meta http-equiv=”Expires” content=”-1″>
+    <meta http-equiv=”CACHE-CONTROL” content=”no-store”>
+    <meta charset="utf-8">
+    <title>demon--hunter.com</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+
+    <div id="link_div">
+      <a href="http://demon--hunter.com/fbi_terminal">FBI Terminal Link</a>
+      <a href="http://demon--hunter.com/fake_discord">Fake Discord Link</a>
+    </div>
+
+    <div id="main">
+      <p id="welcome">Welcome to</p>
+      <img src=logo.png id="logo">
+      <p class="bio">Thanks for coming to my website!</p>
+      <p class="bio">If you're on this website, you probably know me in real life, so if you want me to code something for you just ask! Links to my projects can be found right below this message, and you can find smaller projects (Mostly bookmarklets) I've made if you scroll down!</p>
+    </div>
+
+    <p id="loud_label">LoudType</p>
+    <a id="loudtype_bookmark" href="javascript:function random(min,max) {  min = Math.ceil(min);  max = Math.floor(max);  return Math.floor(Math.random() * (max - min + 1) + min);}function makeListeners(kind) {  const generic = [];  const space = [];  const enter = [];  const backspace = [];  for (let x = 0;x < 3;x++) {    generic.push(new Audio(`http://demon--hunter.com/loudtype/cream/${kind}/GENERIC.mp3`));    space.push(new Audio(`http://demon--hunter.com/loudtype/cream/${kind}/Space.mp3`));    enter.push(new Audio(`http://demon--hunter.com/loudtype/cream/${kind}/Enter.mp3`));    backspace.push(new Audio(`http://demon--hunter.com/loudtype/cream/${kind}/Backspace.mp3`));  }  document.addEventListener(kind, function(e) {    if (e.code != 'Space' && e.code != 'Enter' && e.code !='Backspace') {      generic[random(0,2)].play();    }    else {      eval(e.code.toLowerCase())[random(0,2)].play();    }  });}makeListeners('keydown');makeListeners('keyup');"><span class="label">LoudType 1.1</span></a>
+    <p id="loud_drag_reminder">Drag and drop me into your bookmarks bar!</p>
+    <form id="loud_text_box">
+      <textarea id="loud_input_field" placeholder="Come test it in here!"></textarea>
+    </form>
+    <p id="loudtype_desc">LoudType is a bookmarklet application that when activated, will make any key press and any key release sound like you are using the "Novelkeys Creams" keyboard. It works and any and all websites EXCEPT for the chrome new tab page and any websites listed in the bug section below. All source code can be found <a href="https://github.com/demonhunterrrr/loudtype">on my GitHub,</a> and all sounds are taken from <a href="https://kbs.im/">this website.</a><br><br>Isn't working on any google domains for some reason.</p>
+  </body>
+</html>
+
+<!-- Made by @demonhunterrrr on GitHub -->
